@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+    font-size: 20px;
+    
+}
+.container{
+   display: flex;
+   height: 100vh;
+border: 2px solid white;
+   background:linear-gradient(100deg,  #456632,#967465);
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+form{
+    background-color: #fff;
+    height: 600px;
+    width: 900px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+form .fa-paper-plane{
+    position: absolute;
+    color: red;
+    /* padding:0 200px; */
+    padding-inline: 0 auto;
+   
+}
+.inputGroup{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.inputGroup input{
+    border-bottom: 2px solid black;
+    border-bottom-width: ;
+    /* border: none; */
+    outline: none;
+}
+button{
+    margin: 0 auto;
+    
+    align-items: center;
+    display: flex;
+    width: 50%;
+    color: whitesmoke;
+    padding: 0 30px;
+    background-color: brown;
+    border-radius: 20px;
+    height: 30px;
+   justify-content: center;
+}
